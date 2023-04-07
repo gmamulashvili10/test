@@ -190,7 +190,7 @@ span {
 }
 
 /* DESKTOP */
-@media (min-width: 1440px) {
+@media (min-width: 800px) {
   body {
     display: flex;
     justify-content: center;
@@ -202,23 +202,32 @@ span {
     display: flex;
     background: #fff;
     border-radius: 32px;
-    width: 800px;
   }
   .info {
     border-radius: 32px;
   }
   .info-box {
-    width: 80%;
+    width: 100%;
   }
   .box-section {
     width: 100%;
+    padding: 20px;
   }
-  .button {
-    width: 80%;
+  .btn {
+    padding: 16px 0;
     font-size: 16px;
+  }
+  .btn:hover {
+    background: linear-gradient(
+      180deg,
+      #7755ff 0%,
+      #6943ff 0.01%,
+      #2f2ce9 100%
+    );
   }
   .main-paragraph {
     max-width: 312px;
+    margin-top: 50px;
   }
   h4 {
     margin-right: 145px;
